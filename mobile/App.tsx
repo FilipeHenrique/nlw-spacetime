@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <View className='bg-gray-50'>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View className='flex-1 items-center justify-center bg-gray-900'>
+      <Text className='text-5xl font-bold text-gray-50'>Rocketseat</Text>
       <StatusBar style="auto" />
     </View>
   );
